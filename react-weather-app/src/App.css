@@ -9,10 +9,8 @@ body {
   background-color: rgb(246, 246, 231);
 }
 .container {
-  padding: 20px 40px 60px 40px;
-  box-shadow: 2px 2px 6px rgb(167, 166, 166);
   border: none;
-  border-radius: 30px;
+  box-shadow: 2px 2px 6px rgb(167, 166, 166);
   transition: all ease 0.02s;
   background-color: white;
 }
@@ -59,13 +57,16 @@ input:hover,
   text-align: center;
 }
 .title {
-  border-bottom: 1px solid rgb(197, 196, 196);
   padding: 20px 0;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(146, 221, 253);
+  /*  */
 }
 .title:hover {
-  box-shadow: 2px 2px 4px rgb(197, 196, 196);
+  box-shadow: 2px 2px 6px rgb(118, 117, 117);
 }
+/* .title:hover {
+  box-shadow: 2px 2px 4px rgb(197, 196, 196);
+} */
 
 .logo {
   width: 40px;
@@ -81,38 +82,37 @@ input:hover,
 }
 .speed,
 .humidity {
-  box-shadow: 2px 2px 6px rgb(167, 166, 166);
+  /* box-shadow: 2px 2px 6px rgb(167, 166, 166); */
   padding: 20px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: all ease 0.02s;
 }
-.speed {
+/* .speed {
   margin-right: 10px;
 }
 .humidity {
   margin-left: 10px;
-}
+} */
 .lat-lon {
   text-align: center;
-  box-shadow: 2px 2px 6px rgb(167, 166, 166);
+  /* box-shadow: 2px 2px 6px rgb(167, 166, 166); */
   padding: 10px 0;
-  margin-bottom: 10px;
 }
 .temp {
-  box-shadow: 2px 2px 6px rgb(167, 166, 166);
+  /* box-shadow: 2px 2px 6px rgb(167, 166, 166); */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  margin-bottom: 10px;
+  margin: 10px 0;
   transition: all ease 0.02s;
 }
 .search-info {
   padding: 15px 0;
-  /* display: flex;
-  justify-content: space-evenly; */
+  display: flex;
+  justify-content: center;
 }
 /* .input-area {
   border: 1px solid red;
@@ -122,7 +122,6 @@ input:hover,
 } */
 
 input {
-  width: 350px;
   margin-right: 30px;
   padding: 12px;
   font-size: 18px;

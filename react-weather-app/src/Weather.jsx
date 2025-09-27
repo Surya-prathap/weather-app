@@ -57,25 +57,25 @@ const Weather = () => {
           <div>
             <div className="info">
               <h2 className="name">{weatherData.name.toUpperCase()}</h2>
-
-              <div className="temp">
-                <img
-                  className="temp-logo"
-                  src={
-                    weatherData.temp > 30
-                      ? "https://www.pngplay.com/wp-content/uploads/8/Climate-Temperature-PNG-Clipart-Background.png"
-                      : "https://cdn-icons-png.flaticon.com/512/6636/6636013.png"
-                  }
-                ></img>
-                <h3>Temperature: {weatherData.temp}&deg;C </h3>
-              </div>
-
-              <div className="lat-lon">
-                <h3>Location Latitude : {weatherData.lat.toFixed(2)}&deg;N </h3>
-
-                <h3>Location Longitude : {weatherData.lon.toFixed(2)}&deg;E</h3>
-              </div>
             </div>
+            <div className="temp">
+              <img
+                className="temp-logo"
+                src={
+                  weatherData.temp > 30
+                    ? "https://www.pngplay.com/wp-content/uploads/8/Climate-Temperature-PNG-Clipart-Background.png"
+                    : "https://cdn-icons-png.flaticon.com/512/6636/6636013.png"
+                }
+              ></img>
+              <h3>Temperature: {weatherData.temp}&deg;C </h3>
+            </div>
+
+            <div className="lat-lon">
+              <h3>Location Latitude : {weatherData.lat.toFixed(2)}&deg;N </h3>
+
+              <h3>Location Longitude : {weatherData.lon.toFixed(2)}&deg;E</h3>
+            </div>
+
             <div className="speed-humidity-container">
               <div className="speed">
                 <img
