@@ -9,10 +9,10 @@ body {
   background-color: rgb(246, 246, 231);
 }
 .container {
-  padding: 20px 40px;
+  padding: 20px 40px 60px 40px;
   box-shadow: 2px 2px 6px rgb(167, 166, 166);
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   transition: all ease 0.02s;
   background-color: white;
 }
