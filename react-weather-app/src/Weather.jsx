@@ -63,8 +63,8 @@ const Weather = () => {
                   className="temp-logo"
                   src={
                     weatherData.temp > 30
-                      ? "./src/assets/hot-climate.png"
-                      : "./src/assets/cold-climate.png"
+                      ? "https://www.pngplay.com/wp-content/uploads/8/Climate-Temperature-PNG-Clipart-Background.png"
+                      : "https://cdn-icons-png.flaticon.com/512/6636/6636013.png"
                   }
                 ></img>
                 <h3>Temperature: {weatherData.temp}&deg;C </h3>
@@ -78,11 +78,17 @@ const Weather = () => {
             </div>
             <div className="speed-humidity-container">
               <div className="speed">
-                <img className="logo" src="./src/assets/wind-logo.png"></img>
+                <img
+                  className="logo"
+                  src="https://cdn-icons-png.flaticon.com/512/1247/1247767.png"
+                ></img>
                 <h3>Wind speed : {weatherData.speed} km/h</h3>
               </div>
               <div className="humidity">
-                <img className="logo" src="./src/assets/humidity.png"></img>
+                <img
+                  className="logo"
+                  src="https://static.vecteezy.com/system/resources/previews/011/652/634/original/humidity-3d-render-icon-illustration-png.png"
+                ></img>
                 <h3>Humidity : {weatherData.humidity}%</h3>
               </div>
             </div>
